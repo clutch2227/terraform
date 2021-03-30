@@ -1,7 +1,5 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIAZM4YJKGVVBI6N5MK"
-    secret_key = "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"
 }
 
 resource "aws_ecs_cluster" "Jenkins" {
